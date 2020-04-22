@@ -1,0 +1,85 @@
+html{
+  max-width: 1200px;
+  margin: auto;
+}
+#intro{
+  background-image: url(http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png);
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width:1170px;
+  margin: auto;
+  border-bottom: 30px solid white;
+  border-top: 5px solid #282828;
+  position: relative;
+  top: -8px;
+}
+#intro1{
+  position: relative;
+  top:50%;
+  left:20%;
+  font-family: abril fatface;
+  color: #222;
+  font-size: 40px;
+}
+#intro2{
+  position: relative;
+  top:28%;
+  left:20%;
+  font-family: abril fatface;
+  color: #222;
+  font-size: 70px;
+}
+main{
+  /*max-width: 670px;
+  min-width: 670px;*/
+  width: 670px;
+  margin: auto;
+}
+p{
+  font-family: Josefin sans;
+  font-color: #222;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+blockquote::before{
+  content: '“';
+  font-size: 120px;
+ position: relative;
+  left: 10%;
+  bottom: 25%; 
+}
+blockquote{
+ /* box-sizing: border-box;*/
+  background: #484848;
+  margin-left: -40px;
+  font-family: 'Abril fatface', cursive;
+  color: pink;
+  font-size: 45px;
+  position: relative;
+  right: 40px;
+  width: 110% ;
+  /* display: flex;
+  align-items: center;
+  
+  /*text-align: left;*/
+  /*width: 110%; */
+  /* width: 750px; 
+  position: relative; */
+  /*right: 12.5%;*/
+  /*right: 80px;*/
+  /*padding: 10px;*/
+  /*padding-top: 40px;
+  padding-bottom: 40px;*/
+  /*padding-top: 6.5%;
+  padding-bottom: 6.5%; */
+  /* padding-left: 6%; */
+  /*padding-left: 40px;*/ */
+}
+/*#faith{
+  text-align:left;
+  width: 110%;
+  padding: 20px;
+} */
